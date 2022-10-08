@@ -1,0 +1,33 @@
+.formControl {
+  margin: 0.5rem 0;
+}
+
+.formControl label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.formControl input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+}
+
+.formControl input:focus {
+  outline: none;
+  background: aliceblue;
+  border-color: cornflowerblue;
+}
+
+.formControl.invalid input {
+  border-color: red;
+  background-color: lightpink;
+}
+
+.formControl.invalid label {
+  color: red;
+}
